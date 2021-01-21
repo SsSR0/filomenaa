@@ -1,0 +1,240 @@
+from tkinter import *
+from tkinter import ttk
+
+####---------Creación Funciones--------####
+def Huelva():
+    if (combo_sel1:=fecha.get())=="8 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 7ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="9 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 6ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="10 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 6ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="11 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 7ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="12 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 7ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="13 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 6ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="14 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 7ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    else:
+        temperatura= Label(root, bg="SlateGray2")
+        temperatura.place(x=25, y=150, width=300)
+def Sevilla():
+    if (combo_sel1:=fecha.get())=="8 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 7ºC    Temperatura max: 8ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="9 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 4ºC    Temperatura max: 10ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="10 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 2ºC    Temperatura max: 10ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="11 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 2ºC    Temperatura max: 13ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="12 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 1ºC    Temperatura max: 12ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="13 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 1ºC    Temperatura max: 16ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="14 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 0ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    else:
+        temperatura= Label(root, bg="SlateGray2")
+        temperatura.place(x=25, y=150, width=300)
+def Cordoba():
+    if (combo_sel1:=fecha.get())=="8 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 6ºC    Temperatura max: 9ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="9 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 3ºC    Temperatura max: 9ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="10 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 2ºC    Temperatura max: 10ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="11 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -1ºC    Temperatura max: 13ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="12 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -1ºC    Temperatura max: 12ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="13 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -3ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="14 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -3ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    else:
+        temperatura= Label(root, bg="SlateGray2")
+        temperatura.place(x=25, y=150, width=300)
+def Cadiz():
+    if (combo_sel1:=fecha.get())=="8 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 7ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="9 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 6ºC    Temperatura max: 12ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="10 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 4ºC    Temperatura max: 8ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="11 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 3ºC    Temperatura max: 11ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="12 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 3ºC    Temperatura max: 12ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="13 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 2ºC    Temperatura max: 13ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="14 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 1ºC    Temperatura max: 10ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    else:
+        temperatura= Label(root, bg="SlateGray2")
+        temperatura.place(x=25, y=150, width=300)
+def Malaga():
+    if (combo_sel1:=fecha.get())=="8 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 10ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="9 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 7ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="10 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 4ºC    Temperatura max: 9ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="11 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 6ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="12 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 3ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="13 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 2ºC    Temperatura max: 16ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="14 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 9ºC    Temperatura max: 17ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    else:
+        temperatura= Label(root, bg="SlateGray2")
+        temperatura.place(x=25, y=150, width=300)
+def Granada():
+    if (combo_sel1:=fecha.get())=="8 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 4ºC    Temperatura max: 11ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="9 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 4ºC    Temperatura max: 10ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="10 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -1ºC    Temperatura max: 7ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="11 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -2ºC    Temperatura max: 11ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="12 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -4ºC    Temperatura max: 12ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="13 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -6ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="14 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -5ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    else:
+        temperatura= Label(root, bg="SlateGray2")
+        temperatura.place(x=25, y=150, width=300)
+def Jaen():
+    if (combo_sel1:=fecha.get())=="8 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 4ºC    Temperatura max: 11ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="9 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 4ºC    Temperatura max: 10ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="10 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -1ºC    Temperatura max: 7ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="11 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -2ºC    Temperatura max: 11ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="12 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -4ºC    Temperatura max: 12ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="13 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -6ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="14 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: -5ºC    Temperatura max: 14ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    else:
+        temperatura= Label(root, bg="SlateGray2")
+        temperatura.place(x=25, y=150, width=300)
+def Almeria():
+    if (combo_sel1:=fecha.get())=="8 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 8ºC    Temperatura max: 11ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="9 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 8ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="10 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 6ºC    Temperatura max: 13ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="11 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 7ºC    Temperatura max: 11ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="12 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 6ºC    Temperatura max: 15ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="13 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 7ºC    Temperatura max: 16ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    elif (combo_sel1:=fecha.get())=="14 Enero 2021":
+        temperatura= Label(root, text="Temperatura min: 4ºC    Temperatura max: 16ºC", bg="black", fg="green")
+        temperatura.place(x=25, y=150, width=300)
+    else:
+        temperatura= Label(root, bg="SlateGray2")
+        temperatura.place(x=25, y=150, width=300)
+
+####---------Creación de la Ventana--------####
+root=Tk()
+root.title("TEMPORAL FILOMENA")
+root.geometry("342x300")
+root.config(bg="SlateGray2")
+
+####---------Creación Botones--------####
+
+fecha=ttk.Combobox(root, state="readonly")
+opcionesFecha=["8 Enero 2021", "9 Enero 2021", "10 Enero 2021", "11 Enero 2021", "12 Enero 2021", "13 Enero 2021", "14 Enero 2021"]
+fecha["values"]=opcionesFecha
+fecha.place(x=130, y=40, width=100)
+Huelva=Button(root, bg="gray98", text="Huelva", command=Huelva)
+Huelva.place(x=10, y=70, width=80)
+Sevilla=Button(root, bg="gray98", text="Sevilla", command=Sevilla)
+Sevilla.place(x=90, y=70, width=80)
+Cordoba=Button(root, bg="gray98", text="Córdoba", command=Cordoba)
+Cordoba.place(x=170, y=70, width=80)
+Cadiz=Button(root, bg="gray98", text="Cádiz", command=Cadiz)
+Cadiz.place(x=250, y=70, width=80)
+Malaga=Button(root, bg="gray98", text="Málaga", command=Malaga)
+Malaga.place(x=10, y=100, width=80)
+Granada=Button(root, bg="gray98", text="Granada", command=Granada)
+Granada.place(x=90, y=100, width=80)
+Jaen=Button(root, bg="gray98", text="Jaén", command=Jaen)
+Jaen.place(x=170, y=100, width=80)
+Almeria=Button(root, bg="gray98", text="Almería", command=Almeria)
+Almeria.place(x=250, y=100, width=80)
+
+
+
+
+
+
+root.mainloop()
